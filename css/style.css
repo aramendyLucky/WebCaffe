@@ -1,0 +1,83 @@
+:root {
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #f4623a;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-primary: #f4623a;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-font-sans-serif: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+}
+body {
+    margin: 0;
+    font-family: "Merriweather", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+  
+
+header.masthead {
+    padding-top: 5rem;
+    padding-bottom: calc(10rem - 4.5rem);
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../img/Toasted-coffee-beans-seeds_1280x1024.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+h1,h2,h5{
+    font-style: 2.5rem;
+    font-family: 'Limelight', cursive;
+    font-size: 2.5rem;
+    border: 3px solid #fff;
+    color: rgb(192, 110, 72);
+    /*-webkit-text-fill-color: yellowgreen;*/
+    text-shadow: -2px -2px 2px #000;
+}
+.bg-primary {
+    background-color: #f4663a !important;
+    padding-top: 5rem;
+    height: 70vh;
+}
+.page-section {
+    padding: 8rem 0;
+    color: #f4663a !important;
+}
+.text-primary {
+    color: #db502a !important;
+}
+/*Le puedo dar efectos al logo*/
+.logo{
+    width: 50px;
+    cursor: pointer;
+    animation: leftBounce 5s linear infinite;
+}
+@keyframes leftBounce{
+    0%,100%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(35px);
+    }
+}
